@@ -6,7 +6,7 @@
     RUN apt-get update && apt-get install -y git
     
     # Clone your frontend repo
-    RUN git clone https://github.com/srithars/s111-ecomm-fronteend.git .
+    RUN git clone https://github.com/Vasanth-0706/skill11-docker-compose-frontend.git .
     
     RUN npm install
     RUN npm run build
